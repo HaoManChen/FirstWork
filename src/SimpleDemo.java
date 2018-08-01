@@ -23,10 +23,10 @@ public class SimpleDemo {
         System.out.println("10 + 5 = " + context.executeStrategy(num[0], num[1]));
 
         context = new Context(new OperationSubstract());
-        System.out.println("10 - 5 = " + context.executeStrategy(10, 5));
+        System.out.println("10 - 5 = " + context.executeStrategy(num[0], num[1]));
 
         context = new Context(new OperationMultiply());
-        System.out.println("10 * 5 = " + context.executeStrategy(10, 5));
+        System.out.println("10 * 5 = " + context.executeStrategy(num[0], num[1]));
     }
 
 }
